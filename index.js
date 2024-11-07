@@ -14,14 +14,14 @@
         }
     }else{
         alert(`${logindata}, you are not a member of our system.`);
-        let signup =confirm ("Do dou want to creat an accout ")
+        let signup =confirm ("Do dou want to creat an accout ? ")
         if(signup){
             let creat = prompt("Write your name")
             let creat1 = prompt("Write your password")
             names.push(creat);
 
             alert(`${creat},congratulations you are already a member in our system`);
-            alert("Please log in again.");
+            alert("Please log in again!");
             
 
         }
